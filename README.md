@@ -20,8 +20,18 @@ Covers core array and search/sort operations for managing library book records:
 Covers class structures, record management, and merit ranking using arrays:
 
 - **`student_class.cpp`**: Class-based modeling for student records with `input()` and `display()` methods.
-- **`search_roll.no.cpp`**: Linear search implementation to locate student records by Roll Number.
+- **`search_rollno.cpp`**: Linear search implementation to locate student records by Roll Number.
 - **`merit_sort.cpp`**: Descending bubble sort algorithm on student marks to generate merit lists.
+
+---
+
+## Assignment 3: Smart Restaurant Order Management System
+
+Covers linear data structures (Queue, Stack) and recursion concepts:
+
+- **`restaurant_queue.cpp`**: Implements a First-In-First-Out (FIFO) Queue to accept and process 5 customer orders.
+- **`canceled_order.cpp`**: Implements a Last-In-First-Out (LIFO) Stack to store canceled orders and review recent cancellations first.
+- **`menu_recursion.cpp`**: Interactive restaurant food menu loop implemented purely using recursion without while loops.
 
 ---
 
