@@ -35,6 +35,14 @@ Covers linear data structures (Queue, Stack) and recursion concepts:
 
 ---
 
+## Assignment 4: Bank Token Management System
+
+Covers queue and stack operations in a bank customer token system:
+
+- **`token_queue.cpp`**: Maintains priority and regular customer queues, serving senior citizens and differently-abled customers before the regular queue.
+- **`stack_history.cpp`**: Uses a stack to add, remove, and display recently served customers, with the latest service shown first.
+- **`menu_driven_bank_system.cpp`**: Combines priority and regular queues with a served-customer history in an interactive menu-driven program.
+
 ## Compilation
 
 Compile any program using standard `g++`:
