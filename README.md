@@ -1,53 +1,27 @@
-# C++ Data Structures & Algorithms - Lab Assignments
+# Data Structures Lab Assignments
 
-This repository contains basic C++ implementations for Data Structures and Algorithms laboratory assignments.
-
----
-
-## Assignment 1: Smart Library Book Management System
-
-Covers core array and search/sort operations for managing library book records:
-
-- **`basic_io.cpp`**: Basic console input and display of multiple book records.
-- **`search_book_id.cpp`**: Linear search algorithm to find books by Book ID.
-- **`sort_books.cpp`**: Bubble sort algorithm to organize Book IDs in ascending order.
-- **`menu_driven_library.cpp`**: Interactive menu-driven program supporting add, display, search, and exit operations.
+C++ implementations for **Data Structures ** — Semester I, FY 2026–27, School of Artificial Intelligence, MIT ADT University
 
 ---
 
-## Assignment 2: Student Performance & Ranking Management System
+## Repository Structure
 
-Covers class structures, record management, and merit ranking using arrays:
-
-- **`student_class.cpp`**: Class-based modeling for student records with `input()` and `display()` methods.
-- **`search_rollno.cpp`**: Linear search implementation to locate student records by Roll Number.
-- **`merit_sort.cpp`**: Descending bubble sort algorithm on student marks to generate merit lists.
-
----
-
-## Assignment 3: Smart Restaurant Order Management System
-
-Covers linear data structures (Queue, Stack) and recursion concepts:
-
-- **`restaurant_queue.cpp`**: Implements a First-In-First-Out (FIFO) Queue to accept and process 5 customer orders.
-- **`canceled_order.cpp`**: Implements a Last-In-First-Out (LIFO) Stack to store canceled orders and review recent cancellations first.
-- **`menu_recursion.cpp`**: Interactive restaurant food menu loop implemented purely using recursion without while loops.
+| Folder | Topic & Data Structures | Source Files |
+| :--- | :--- | :--- |
+| **`Assignment_1_Smart_Library`**[cite: 3] | Arrays, Linear/Binary Search, Sorting[cite: 1] | `basic_io.cpp`, `menu_driven_library.cpp`, `search_book_id.cpp`, `sort_books.cpp`[cite: 3] |
+| **`Assignment_2_Student_Performance`**[cite: 3] | Arrays, Roll No Search, Merit Sorting[cite: 1] | `merit_sort.cpp`, `search_rollno.cpp`, `student_class.cpp`[cite: 3] |
+| **`Assignment_3_Smart_Restaurant`**[cite: 3] | Queue, Stack, Recursive Menu[cite: 1] | `canceled_order.cpp`, `menu_recursion.cpp`, `restaurant_queue.cpp`[cite: 3] |
+| **`Assignment_4_Bank_Token`**[cite: 2, 3] | Token Queue & Served History Stack[cite: 1] | `menu_driven_bank_system.cpp`, `stack_history.cpp`, `token_queue.cpp`[cite: 2, 3] |
+| **`Assignment_5_Management_system`**[cite: 2, 3] | Smart Restaurant Order Management (Queue, Priority Queue, Stack, Recursion)[cite: 1] | `cod.cpp`[cite: 2, 3] |
+| **`Assignment_6_Bank_Token_System`**[cite: 2, 3] | Bank Token System (Queue, Priority Queue, Stack)[cite: 1] | `cod.cpp`[cite: 2, 3] |
+| **`Assignment_7_Hospital_Patient_System`**[cite: 2, 3] | Smart Hospital Patient Records (Linked List + Hash Table Chaining)[cite: 1] | `cod.cpp` |
+| **`Assignment_8_Inventory`**[cite: 2, 3] | E-Commerce Product Catalog & Inventory (Linked List + Hash Table)[cite: 1] | `cod.cpp`[cite: 2] |
+| **`Assignment_9_University_Enrollment_System`**[cite: 2] | University Registration & Course Enrollment (Nested Linked Lists + Hash Table)[cite: 1] | `cod.cpp`[cite: 2] |
 
 ---
 
-## Assignment 4: Bank Token Management System
-
-Covers queue and stack operations in a bank customer token system:
-
-- **`token_queue.cpp`**: Maintains priority and regular customer queues, serving senior citizens and differently-abled customers before the regular queue.
-- **`stack_history.cpp`**: Uses a stack to add, remove, and display recently served customers, with the latest service shown first.
-- **`menu_driven_bank_system.cpp`**: Combines priority and regular queues with a served-customer history in an interactive menu-driven program.
-
-## Compilation
-
-Compile any program using standard `g++`:
+## How to Compile & Run
 
 ```bash
-g++ Assignment_1_Smart_Library/menu_driven_library.cpp -o library
-./library
-```
+g++ Assignment_7_Hospital_Patient_System/cod.cpp -o app
+./app
